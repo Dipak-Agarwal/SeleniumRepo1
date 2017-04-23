@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="url" value="http://opensource.demo.orangehrmlive.com/"/>
+  <parameter name="Browser" value="IE"/>
+  <test name="TestIE(failed)" parallel="tests">
+    <parameter name="url" value="http://opensource.demo.orangehrmlive.com/"/>
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="testcases.LoginTC">
+        <methods>
+          <include name="startApp"/>
+          <include name="startApp"/>
+          <include name="startApp"/>
+          <include name="loginHRM"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testcases.LoginTC -->
+    </classes>
+  </test> <!-- TestIE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

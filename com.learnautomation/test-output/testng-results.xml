@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="96" started-at="2017-04-22T05:37:48Z" finished-at="2017-04-22T05:37:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="96" started-at="2017-04-22T05:37:48Z" finished-at="2017-04-22T05:37:48Z">
+      <class name="testcases.LoginTC">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:testcases.LoginTC@14acaea5]" name="setupReport" is-config="true" duration-ms="1094" started-at="2017-04-22T11:07:47Z" finished-at="2017-04-22T11:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="FAIL" signature="startApp(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTC@14acaea5]" name="startApp" is-config="true" duration-ms="0" started-at="2017-04-22T11:07:48Z" finished-at="2017-04-22T11:07:48Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Browser' is required by @Configuration on method startApp but has not been marked @Optional or defined
+in C:\Users\Mukesh_50\AppData\Local\Temp\testng-eclipse--1980931017\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by @Configuration on method startApp but has not been marked @Optional or defined
+in C:\Users\Mukesh_50\AppData\Local\Temp\testng-eclipse--1980931017\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="SKIP" signature="loginHRM()[pri:0, instance:testcases.LoginTC@14acaea5]" name="loginHRM" duration-ms="5" started-at="2017-04-22T11:07:48Z" finished-at="2017-04-22T11:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHRM -->
+        <test-method status="SKIP" signature="closeApp()[pri:0, instance:testcases.LoginTC@14acaea5]" name="closeApp" is-config="true" duration-ms="0" started-at="2017-04-22T11:07:48Z" finished-at="2017-04-22T11:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:testcases.LoginTC@14acaea5]" name="generateReport" is-config="true" duration-ms="0" started-at="2017-04-22T11:07:48Z" finished-at="2017-04-22T11:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testcases.LoginTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

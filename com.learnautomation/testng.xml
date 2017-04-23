@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="TestC">
+
+ <!--   <parameter name="Browser" value="Chrome"/>
+   <parameter name="url" value="https://enterprise-demo.orangehrmlive.com/"/> -->
+    <classes>
+      <class name="testcases.LoginTC"/>
+    </classes>
+  </test> 
+  
+</suite> 
